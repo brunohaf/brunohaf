@@ -41,9 +41,6 @@ Here are some ideas to get you started:
   <img align="center" alt="brunohaf-MySQL" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg">
 </div>
 
-<!--
-  ##
- 
 <div align="center"> 
 
   ![Snake animation](https://github.com/brunohaf/brunohaf/blob/assets/github-contribution-grid-snake-dark.svg)
@@ -51,4 +48,3 @@ Here are some ideas to get you started:
   <a href="https://www.linkedin.com/in/bruno-fonseca-8416a311a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 
 </div>
--->

@@ -113,17 +113,17 @@
    <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=impgem-buildbot" alt="ImpGem Buildbot"/>
   </picture>
  </a>
-   <a href="https://github.com/brunohaf/helm-idle-cleanup-cronjob" target="_blank">     
+   <a href="https://github.com/brunohaf/norganas-helm-oblivion" target="_blank">     
     <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=helm-idle-cleanup-cronjob&theme=catppuccin_mocha"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=norganas-helm-oblivion&theme=catppuccin_mocha"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=helm-idle-cleanup-cronjob&theme=catppuccin_latte"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=norganas-helm-oblivion&theme=catppuccin_latte"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-   <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=helm-idle-cleanup-cronjob" alt="Helm Idle Cronjob"/>
+   <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=norganas-helm-oblivion" alt="Norganas the Helm Of Oblivion"/>
   </picture>
  </a>
    <a href="https://github.com/brunohaf/action-bandit" target="_blank">  

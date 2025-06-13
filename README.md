@@ -11,6 +11,13 @@
 - ⚡ Fun fact: ...
 -->
 # Hello there, I'm Bruno 👋
+<div align="center" width="100%">
+  
+</div>
+<p align="center">
+  <a href="#"><img src="https://komarev.com/ghpvc/?username=your-github-username&abbreviated=true&style=plastic"></a>
+  <a href="#"><img src="https://img.shields.io/github/followers/brunohaf" alt="Followers"></a>
+</p>
 
 - 📖 Currently reading: *Designing Data-Intensive Applications* by Martin Kleppmann
 - 🌱 I’m looking to start collaborating on **FOSS**
@@ -93,6 +100,7 @@
  <!-- Repo Pins -->
 <div align="center">
  <div>
+   <a href="https://github.com/brunohaf/impgem-buildbot" target="_blank">   
   <picture>
     <source
       srcset="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=impgem-buildbot&theme=catppuccin_mocha"
@@ -104,6 +112,8 @@
     />
    <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=impgem-buildbot" alt="ImpGem Buildbot"/>
   </picture>
+ </a>
+   <a href="https://github.com/brunohaf/helm-idle-cleanup-cronjob" target="_blank">     
     <picture>
     <source
       srcset="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=helm-idle-cleanup-cronjob&theme=catppuccin_mocha"
@@ -115,6 +125,8 @@
     />
    <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=helm-idle-cleanup-cronjob" alt="Helm Idle Cronjob"/>
   </picture>
+ </a>
+   <a href="https://github.com/brunohaf/action-bandit" target="_blank">  
     <picture>
     <source
       srcset="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=action-bandit&theme=catppuccin_mocha"
@@ -126,6 +138,7 @@
     />
    <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=action-bandit" alt="Action Bandit"/>
   </picture>
+ </a>
   </div>
 
 <!-- Analytics -->

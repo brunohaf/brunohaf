@@ -15,8 +15,8 @@
   
 </div>
 <p align="center">
-  <a href="#"><img src="https://komarev.com/ghpvc/?username=your-github-username&abbreviated=true&style=plastic"></a>
-  <a href="#"><img src="https://img.shields.io/github/followers/brunohaf" alt="Followers"></a>
+  <a href="#"><img src="https://komarev.com/ghpvc/?username=brunohaf&style=flat-square&color=grey" alt="Visits"></a>
+  <a href="#"><img src="https://img.shields.io/github/followers/brunohaf?style=flat-square&label=Followers&labelColor=grey&color=grey" alt="Followers"></a>
 </p>
 
 - 📖 Currently reading: *Designing Data-Intensive Applications* by Martin Kleppmann

@@ -12,7 +12,7 @@
 -->
 # Hello there, I'm Bruno 👋
 
-- 📖 Currently reading: *Designing Data-Intensive Applications* by by Martin Kleppmann
+- 📖 Currently reading: *Designing Data-Intensive Applications* by Martin Kleppmann
 - 🌱 I’m looking to start collaborating on **FOSS**
 - 🎲 I’m an avid RPG fan and currently **DMing** *Curse of Strahd*
 - 🏡 Currently working on the **network topology** of my privacy-focused self-hosted home server

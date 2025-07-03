@@ -11,7 +11,7 @@
 ### About Me
 
 - 📚 **Currently reading:** _Designing Data-Intensive Applications_ by Martin Kleppmann and _Grokking Algorithms_ by Aditya Bhargava  
-- 🔍 **Studying:** Data Structures & Algorithms for Competitive Programming — see my [YeetCodex](https://github.com/brunohaf/yeetcodex) and [Trapezahedronlogn](https://github.com/brunohaf/trapezohedronlogn).  
+- 🔍 **Studying:** Data Structures & Algorithms for Competitive Programming — see my [Yeetcodex](https://github.com/brunohaf/yeetcodex) and [Trapezahedronlogn](https://github.com/brunohaf/trapezohedronlogn).  
 - 🏡 **Building:** A privacy-first, self-hosted home server with IoT integration  
 - 🧙‍♂️ **Dungeon Mastering:** _Curse of Strahd_ for Dungeons & Dragons 5e  
 - 💬 **Ask me about:** Software Engineering, DevOps & Cloud Architecture, or all things RPG!

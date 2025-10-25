@@ -161,8 +161,21 @@
       <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=brunohaf&repo=action-bandit" alt="Action Bandit"/>
     </picture>
   </a>
+</div>
+
+### Working on making problem-solving part of my daily brain cardio
+
+<div align="center">
+
+  <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME/">
+    <img src="https://leetcard.jacoblin.cool/brunohaf?theme=dark&font=Source%20Code%20Pro&ext=heatmap" alt="LeetCode Stats" />
+  </a>
 
 </div>
+
+<p align="center">
+Sharpening DSA fundamentals and exploring competitive programming.
+</p>
 
 ---
 

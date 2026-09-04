@@ -1,0 +1,54 @@
+name: Contribution snake
+
+# Regenerates the contribution-grid snake animation and publishes it to the
+# `assets` branch, where README.md consumes it via raw.githubusercontent.com.
+#
+# Filenames here are a contract with the <picture> block in README.md:
+#   github-contribution-grid-snake-light.svg
+#   github-contribution-grid-snake-dark.svg
+# Renaming an output means updating the README in the same commit.
+
+on:
+  schedule:
+    # 03:00 UTC daily — keeps the snake at most a day behind the real grid.
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+# Least privilege by default; the job below opts into what it actually needs.
+permissions:
+  contents: read
+
+# The job force-pushes a single branch, so overlapping runs would race.
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
+jobs:
+  publish-snake:
+    name: Generate and publish snake SVGs
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      # Required to push the generated SVGs to the `assets` branch.
+      contents: write
+
+    steps:
+      - name: Generate snake SVGs (light + dark)
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake-light.svg?palette=github-light
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Publish to the assets branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: assets
+          build_dir: dist
+          # Without this the daily cron force-pushes a commit even when the
+          # generated SVGs are byte-identical to the ones already published.
+          allow_empty_commit: false
+          commit_message: "chore: regenerate contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

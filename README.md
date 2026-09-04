@@ -49,25 +49,28 @@
 
 ### Tech interests
 
-Deeply interested in distributed systems design, resilience engineering, and observability — the Prometheus/Grafana/Jaeger side of the house, and the Helm-and-GitOps side of shipping it.
-Exploring design patterns and data-intensive architectures that push scalability and reliability to their limits.
-Enjoy studying real-world engineering stories and industry case studies — from the Cloudflare leak to the breakthroughs that define modern large-scale systems.
+Deeply interested in distributed systems design, resilience engineering, observability, and the networking layer everything quietly depends on.
 Always looking for ways to turn lessons from production systems into better design decisions.
 
+<!--
+  go-skill-icons, not skillicons.dev: same tile style, but skillicons has no
+  Helm, Jaeger, Argo CD, Claude, Ollama or MCP tile. New Relic, Valkey and
+  ComfyUI have no tile on any provider, so they live in the prose above.
+-->
 <div align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,terraform,prometheus,grafana,linux,bash,powershell,postgres,mysql,redis,py,go,cs,js,java&perline=9&theme=dark"
+      srcset="https://go-skill-icons.vercel.app/api/icons?i=aws,azure,gcp,docker,kubernetes,helm,terraform,argocd,linux,prometheus,grafana,jaeger,sentry,bash,powershell,postgresql,mysql,mongodb,redis,python,cs,js,java,claude,ollama,mcp&perline=9&theme=dark"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,terraform,prometheus,grafana,linux,bash,powershell,postgres,mysql,redis,py,go,cs,js,java&perline=9&theme=light"
+      srcset="https://go-skill-icons.vercel.app/api/icons?i=aws,azure,gcp,docker,kubernetes,helm,terraform,argocd,linux,prometheus,grafana,jaeger,sentry,bash,powershell,postgresql,mysql,mongodb,redis,python,go,cs,js,java,claude,ollama,mcp&perline=9&theme=light"
     />
     <img
-      src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,terraform,prometheus,grafana,linux,bash,powershell,postgres,mysql,redis,py,go,cs,js,java&perline=9"
-      alt="AWS, Azure, Docker, Kubernetes, Terraform, Prometheus, Grafana, Linux, Bash, PowerShell, PostgreSQL, MySQL, Redis, Python, Go, C#, JavaScript, Java"
-      width="600"
+      src="https://go-skill-icons.vercel.app/api/icons?i=aws,azure,gcp,docker,kubernetes,helm,terraform,argocd,linux,prometheus,grafana,jaeger,sentry,bash,powershell,postgresql,mysql,mongodb,redis,python,go,cs,js,java,claude,ollama,mcp&perline=9"
+      alt="AWS, Azure, GCP, Docker, Kubernetes, Helm, Terraform, Argo CD, Linux, Prometheus, Grafana, Jaeger, Sentry, Bash, PowerShell, PostgreSQL, MySQL, MongoDB, Redis, Python, Go, C#, JavaScript, Java, Claude, Ollama, MCP"
+      width="640"
     />
   </picture>
 </div>
@@ -99,20 +102,6 @@ Always looking for ways to turn lessons from production systems into better desi
     public deployment is paused (503) and every community mirror runs without a
     PAT, so it renders an error card. Light theme = `default`, dark = `github_dark`.
   -->
-  <a href="https://github.com/brunohaf">
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=brunohaf&theme=github_dark"
-      />
-      <source
-        media="(prefers-color-scheme: light)"
-        srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=brunohaf&theme=default"
-      />
-      <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=brunohaf&theme=default" alt="Bruno's GitHub stats" />
-    </picture>
-  </a>
-
   <a href="https://github.com/brunohaf?tab=repositories">
     <picture>
       <source
@@ -124,35 +113,6 @@ Always looking for ways to turn lessons from production systems into better desi
         srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=brunohaf&theme=default"
       />
       <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=brunohaf&theme=default" alt="Repositories per language" />
-    </picture>
-  </a>
-
-  <a href="https://github.com/brunohaf?tab=repositories">
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=brunohaf&theme=github_dark"
-      />
-      <source
-        media="(prefers-color-scheme: light)"
-        srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=brunohaf&theme=default"
-      />
-      <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=brunohaf&theme=default" alt="Most used languages by commit" />
-    </picture>
-  </a>
-
-  <!-- utcOffset=-3 pins the histogram to Brazil time, not UTC. -->
-  <a href="https://github.com/brunohaf">
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=brunohaf&theme=github_dark&utcOffset=-3"
-      />
-      <source
-        media="(prefers-color-scheme: light)"
-        srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=brunohaf&theme=default&utcOffset=-3"
-      />
-      <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=brunohaf&theme=default&utcOffset=-3" alt="Most productive time of day" />
     </picture>
   </a>
 
@@ -197,7 +157,7 @@ Always looking for ways to turn lessons from production systems into better desi
 
 ---
 
-### Problem-solving as daily brain cardio
+###   Sharpening DSA fundamentals and exploring competitive programming.
 
 <div align="center">
 
@@ -216,10 +176,6 @@ Always looking for ways to turn lessons from production systems into better desi
   </a>
 
 </div>
-
-<p align="center">
-  Sharpening DSA fundamentals and exploring competitive programming.
-</p>
 
 ---
 

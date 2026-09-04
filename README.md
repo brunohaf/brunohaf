@@ -52,24 +52,19 @@
 Deeply interested in distributed systems design, resilience engineering, observability, and the networking layer everything quietly depends on.
 Always looking for ways to turn lessons from production systems into better design decisions.
 
-<!--
-  go-skill-icons, not skillicons.dev: same tile style, but skillicons has no
-  Helm, Jaeger, Argo CD, Claude, Ollama or MCP tile. New Relic, Valkey and
-  ComfyUI have no tile on any provider, so they live in the prose above.
--->
 <div align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://go-skill-icons.vercel.app/api/icons?i=aws,azure,gcp,docker,kubernetes,helm,terraform,argocd,linux,prometheus,grafana,jaeger,sentry,bash,powershell,postgresql,mysql,mongodb,redis,python,cs,js,java,claude,ollama,mcp&perline=9&theme=dark"
+      srcset="https://go-skill-icons.vercel.app/api/icons?i=aws,azure,gcp,kubernetes,helm,terraform,argocd,prometheus,grafana,sentry,postgresql,mongodb,redis,python,cs,claude,mcp,ollama&perline=9&theme=dark"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://go-skill-icons.vercel.app/api/icons?i=aws,azure,gcp,docker,kubernetes,helm,terraform,argocd,linux,prometheus,grafana,jaeger,sentry,bash,powershell,postgresql,mysql,mongodb,redis,python,go,cs,js,java,claude,ollama,mcp&perline=9&theme=light"
+      srcset="https://go-skill-icons.vercel.app/api/icons?i=aws,azure,gcp,kubernetes,helm,terraform,argocd,prometheus,grafana,sentry,postgresql,mongodb,redis,python,cs,claude,mcp,ollama&perline=9&theme=light"
     />
     <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=aws,azure,gcp,docker,kubernetes,helm,terraform,argocd,linux,prometheus,grafana,jaeger,sentry,bash,powershell,postgresql,mysql,mongodb,redis,python,go,cs,js,java,claude,ollama,mcp&perline=9"
-      alt="AWS, Azure, GCP, Docker, Kubernetes, Helm, Terraform, Argo CD, Linux, Prometheus, Grafana, Jaeger, Sentry, Bash, PowerShell, PostgreSQL, MySQL, MongoDB, Redis, Python, Go, C#, JavaScript, Java, Claude, Ollama, MCP"
+      src="https://go-skill-icons.vercel.app/api/icons?i=aws,azure,gcp,kubernetes,helm,terraform,argocd,prometheus,grafana,sentry,postgresql,mongodb,redis,python,cs,claude,mcp,ollama&perline=9"
+      alt="AWS, Azure, GCP, Kubernetes, Helm, Terraform, Argo CD, Prometheus, Grafana, Sentry, PostgreSQL, MongoDB, Redis, Python, C#, Claude, MCP, Ollama"
       width="640"
     />
   </picture>
@@ -79,16 +74,9 @@ Always looking for ways to turn lessons from production systems into better desi
 
 ### Featured projects
 
-<!--
-  Hand-written on purpose. The upstream github-readme-stats pin API is a paused
-  Vercel deployment (503 DEPLOYMENT_PAUSED), so these cards are plain markdown
-  and cannot break. Only the star/last-commit badges are dynamic (shields.io).
--->
-
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| **[ImpGem Buildbot](https://github.com/brunohaf/impgem-buildbot)**<br/>[![Stars](https://img.shields.io/github/stars/brunohaf/impgem-buildbot?style=flat-square&color=blue&label=%E2%98%85)](https://github.com/brunohaf/impgem-buildbot/stargazers) [![Last commit](https://img.shields.io/github/last-commit/brunohaf/impgem-buildbot?style=flat-square&color=grey&label=)](https://github.com/brunohaf/impgem-buildbot/commits) | Self-hosted CI/CD and task runner inspired by Buildbot and GitHub Actions — powered by mischievous imps. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
-| **[Norganas Kube Prune](https://github.com/brunohaf/norganas-kube-prune)**<br/>[![Stars](https://img.shields.io/github/stars/brunohaf/norganas-kube-prune?style=flat-square&color=blue&label=%E2%98%85)](https://github.com/brunohaf/norganas-kube-prune/stargazers) [![Last commit](https://img.shields.io/github/last-commit/brunohaf/norganas-kube-prune?style=flat-square&color=grey&label=)](https://github.com/brunohaf/norganas-kube-prune/commits) | Home-brew Kubernetes cleanup tool that channels Norganas: finds idle workloads via Prometheus and purges them into oblivion. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) |
+| **[ImpGem Buildbot](https://github.com/brunohaf/impgem-buildbot)**<br/>[![Stars](https://img.shields.io/github/stars/brunohaf/impgem-buildbot?style=flat-square&color=blue&label=%E2%98%85)](https://github.com/brunohaf/impgem-buildbot/stargazers) [![Last commit](https://img.shields.io/github/last-commit/brunohaf/impgem-buildbot?style=flat-square&color=grey&label=)](https://github.com/brunohaf/impgem-buildbot/commits) | Self-hosted CI/CD and task runner inspired by Buildbot and GitHub Actions — powered by mischievous imps. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) | **[Norganas Kube Prune](https://github.com/brunohaf/norganas-kube-prune)**<br/>[![Stars](https://img.shields.io/github/stars/brunohaf/norganas-kube-prune?style=flat-square&color=blue&label=%E2%98%85)](https://github.com/brunohaf/norganas-kube-prune/stargazers) [![Last commit](https://img.shields.io/github/last-commit/brunohaf/norganas-kube-prune?style=flat-square&color=grey&label=)](https://github.com/brunohaf/norganas-kube-prune/commits) | Home-brew Kubernetes cleanup tool that channels Norganas: finds idle workloads via Prometheus and purges them into oblivion. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) |
 | **[Action Bandit](https://github.com/brunohaf/action-bandit)**<br/>[![Stars](https://img.shields.io/github/stars/brunohaf/action-bandit?style=flat-square&color=blue&label=%E2%98%85)](https://github.com/brunohaf/action-bandit/stargazers) [![Last commit](https://img.shields.io/github/last-commit/brunohaf/action-bandit?style=flat-square&color=grey&label=)](https://github.com/brunohaf/action-bandit/commits) | GitHub Action that runs the Bandit security linter and posts inline PR findings through reviewdog, with semver bumping built in. | ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
 
 ---
@@ -112,7 +100,7 @@ Always looking for ways to turn lessons from production systems into better desi
         media="(prefers-color-scheme: light)"
         srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=brunohaf&theme=default"
       />
-      <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=brunohaf&theme=default" alt="Repositories per language" />
+      <img width="420" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=brunohaf&theme=default" alt="Repositories per language" />
     </picture>
   </a>
 
@@ -120,13 +108,13 @@ Always looking for ways to turn lessons from production systems into better desi
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
-        srcset="https://streak-stats.demolab.com?user=brunohaf&theme=catppuccin-mocha&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480"
+        srcset="https://streak-stats.demolab.com?user=brunohaf&theme=catppuccin-mocha&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=420"
       />
       <source
         media="(prefers-color-scheme: light)"
-        srcset="https://streak-stats.demolab.com?user=brunohaf&theme=catppuccin-latte&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480"
+        srcset="https://streak-stats.demolab.com?user=brunohaf&theme=catppuccin-latte&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=420"
       />
-      <img height="180" src="https://streak-stats.demolab.com?user=brunohaf&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480" alt="Bruno's GitHub streak" />
+      <img width="420" src="https://streak-stats.demolab.com?user=brunohaf&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=420" alt="Bruno's GitHub streak" />
     </picture>
   </a>
 
@@ -150,7 +138,7 @@ Always looking for ways to turn lessons from production systems into better desi
     <img
       src="https://raw.githubusercontent.com/brunohaf/brunohaf/assets/github-contribution-grid-snake-light.svg"
       alt="Snake eating my GitHub contribution grid"
-      width="100%"
+      width="860"
     />
   </picture>
 </div>
@@ -171,7 +159,7 @@ Always looking for ways to turn lessons from production systems into better desi
         media="(prefers-color-scheme: light)"
         srcset="https://leetcard.jacoblin.cool/brunohaf?theme=light&font=Source%20Code%20Pro&ext=heatmap"
       />
-      <img src="https://leetcard.jacoblin.cool/brunohaf?font=Source%20Code%20Pro&ext=heatmap" alt="LeetCode stats" width="500" />
+      <img src="https://leetcard.jacoblin.cool/brunohaf?font=Source%20Code%20Pro&ext=heatmap" alt="LeetCode stats" width="860" />
     </picture>
   </a>
 

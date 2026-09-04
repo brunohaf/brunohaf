@@ -68,27 +68,6 @@ Always looking for ways to turn lessons from production systems into better desi
     <img src="https://go-skill-icons.vercel.app/api/icons?i=sentry%2Cpostgresql%2Cs3%2Credis%2Cpython%2Ccs%2Cclaude%2Cmcp%2Collama&perline=9" alt="Sentry, PostgreSQL, S3, Redis, Python, C#, Claude, MCP, Ollama" width="640" height="62" />
   </picture>
 </div>
-<!--
-<details>
-  <summary>🏡 <b>What the homelab actually looks like</b></summary>
-
-<br/>
-
-```mermaid
-flowchart LR
-  wan([Internet]) --> vpn[WireGuard<br/>no ports exposed]
-  vpn --> proxy[Reverse proxy<br/>TLS termination]
-  proxy --> apps[Self-hosted apps<br/>containers]
-  apps --> obs[Prometheus<br/>Grafana]
-  apps --> iot[MQTT broker<br/>Home Assistant]
-  apps --> data[(PostgreSQL<br/>+ nightly backups)]
-  iot --> devices[Zigbee / local-only devices]
-```
-
-Design rules I hold myself to: nothing reachable without the VPN, no device that phones home,
-and every service either has a dashboard or gets deleted.
-
-</details> -->
 
 ---
 

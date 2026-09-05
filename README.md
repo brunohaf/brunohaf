@@ -76,8 +76,10 @@ Always looking for ways to turn lessons from production systems into better desi
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| **[ImpGem Buildbot](https://github.com/brunohaf/impgem-buildbot)**<br/>[![Stars](https://img.shields.io/github/stars/brunohaf/impgem-buildbot?style=flat-square&color=blue&label=%E2%98%85)](https://github.com/brunohaf/impgem-buildbot/stargazers) [![Last commit](https://img.shields.io/github/last-commit/brunohaf/impgem-buildbot?style=flat-square&color=grey&label=)](https://github.com/brunohaf/impgem-buildbot/commits) | Self-hosted CI/CD and task runner inspired by Buildbot and GitHub Actions — powered by mischievous imps. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) | **[Norganas Kube Prune](https://github.com/brunohaf/norganas-kube-prune)**<br/>[![Stars](https://img.shields.io/github/stars/brunohaf/norganas-kube-prune?style=flat-square&color=blue&label=%E2%98%85)](https://github.com/brunohaf/norganas-kube-prune/stargazers) [![Last commit](https://img.shields.io/github/last-commit/brunohaf/norganas-kube-prune?style=flat-square&color=grey&label=)](https://github.com/brunohaf/norganas-kube-prune/commits) | Home-brew Kubernetes cleanup tool that channels Norganas: finds idle workloads via Prometheus and purges them into oblivion. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) |
+| **[ImpGem Buildbot](https://github.com/brunohaf/impgem-buildbot)**<br/>[![Stars](https://img.shields.io/github/stars/brunohaf/impgem-buildbot?style=flat-square&color=blue&label=%E2%98%85)](https://github.com/brunohaf/impgem-buildbot/stargazers) [![Last commit](https://img.shields.io/github/last-commit/brunohaf/impgem-buildbot?style=flat-square&color=grey&label=)](https://github.com/brunohaf/impgem-buildbot/commits) | Self-hosted CI/CD and task runner inspired by Buildbot and GitHub Actions — powered by mischievous imps. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
+| **[Norganas Kube Prune](https://github.com/brunohaf/norganas-kube-prune)**<br/>[![Stars](https://img.shields.io/github/stars/brunohaf/norganas-kube-prune?style=flat-square&color=blue&label=%E2%98%85)](https://github.com/brunohaf/norganas-kube-prune/stargazers) [![Last commit](https://img.shields.io/github/last-commit/brunohaf/norganas-kube-prune?style=flat-square&color=grey&label=)](https://github.com/brunohaf/norganas-kube-prune/commits) | Home-brew Kubernetes cleanup tool that channels Norganas: finds idle workloads via Prometheus and purges them into oblivion. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) |
 | **[Action Bandit](https://github.com/brunohaf/action-bandit)**<br/>[![Stars](https://img.shields.io/github/stars/brunohaf/action-bandit?style=flat-square&color=blue&label=%E2%98%85)](https://github.com/brunohaf/action-bandit/stargazers) [![Last commit](https://img.shields.io/github/last-commit/brunohaf/action-bandit?style=flat-square&color=grey&label=)](https://github.com/brunohaf/action-bandit/commits) | GitHub Action that runs the Bandit security linter and posts inline PR findings through reviewdog, with semver bumping built in. | ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
+| **[Spicy Claude](https://github.com/brunohaf/spicy-claude)**<br/>[![Stars](https://img.shields.io/github/stars/brunohaf/spicy-claude?style=flat-square&color=blue&label=%E2%98%85)](https://github.com/brunohaf/spicy-claude/stargazers) [![Last commit](https://img.shields.io/github/last-commit/brunohaf/spicy-claude?style=flat-square&color=grey&label=)](https://github.com/brunohaf/spicy-claude/commits) | Battle-tested Claude Code configuration — bash guardrails, audit hooks and custom skills that turn Claude into a sharper, more autonomous coding agent. | ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white) ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white) |
 
 ---
 
@@ -85,11 +87,6 @@ Always looking for ways to turn lessons from production systems into better desi
 
 <div align="center">
 
-  <!--
-    Served by github-profile-summary-cards, not github-readme-stats: the latter's
-    public deployment is paused (503) and every community mirror runs without a
-    PAT, so it renders an error card. Light theme = `default`, dark = `github_dark`.
-  -->
   <a href="https://github.com/brunohaf?tab=repositories">
     <picture>
       <source
@@ -122,8 +119,7 @@ Always looking for ways to turn lessons from production systems into better desi
 
 <!--
   Generated daily by .github/workflows/contribution-snake.yml and published to
-  the `assets` branch. Must be served from raw.githubusercontent.com — a
-  github.com/.../blob/... URL returns HTML, not an image, and renders broken.
+  the `assets` branch.
 -->
 <div align="center">
   <picture>

@@ -29,7 +29,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=brunohaf&style=flat-square&label=Profile+views&color=blue" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=brunohaf&style=flat-square&label=Profile+views&color=blue&v=2" alt="Profile views" />
   <a href="https://github.com/brunohaf?tab=followers"><img src="https://img.shields.io/github/followers/brunohaf?style=flat-square&label=Followers&color=blue" alt="GitHub followers" /></a>
   <a href="https://www.youtube.com/@bruno3145"><img src="https://img.shields.io/badge/YouTube-%40bruno3145-red?style=flat-square&logo=youtube&logoColor=white" alt="YouTube channel" /></a>
 </p>
